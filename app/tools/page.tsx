@@ -36,6 +36,12 @@ const tools = [
     url: 'https://github.com/rezmeplz/MultiModelAgent-UI',
   },
   {
+    name: 'GBS (WIP)',
+    category: 'Standards-Verified Dynamic Interaction Testing',
+    description: 'Grounded Behavior Simulator: Synthetic testing by running simulated personas through continuous perceive-decide-act loops on live interfaces. A strict supervisor agent verifies these simulated behavioral failures against established standards, such as ISO 9241-110, to guarantee diagnostic accuracy and eliminate AI hallucinations. It specifically targets the discovery of dynamic interaction barriers, such as broken multi-step workflows or navigational dead-ends, that traditional static analysis methods typically miss.',
+    icon: '🤖',
+  },
+  {
     name: 'UXTester',
     category: 'Usability Testing',
     description: 'A comprehensive tool for task-based usability testing and performance measurement. UXTester supports session recording, task completion tracking, and export of metrics aligned with ISO 9241-11 usability criteria.',
