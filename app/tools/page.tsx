@@ -22,6 +22,13 @@ const tools = [
     url: 'https://df-info-ui.vercel.app',
   },
   {
+    name: 'M-CAUE',
+    category: 'Proactive IDE Usability Assistant',
+    description: 'Operating directly within a developer\'s IDE as a VS Code plugin, this tool shifts usability testing left by continuously evaluating live UI source code during the active coding phase. It dynamically translates project briefs and mandated standards into a machine-readable design guide, which a supervisor agent uses to flag code-level usability violations. The system then orchestrates specialized recommender agents to deliver real-time, in-situ code patches and compliant snippets, preventing usability defects before the UI is even rendered.',
+    icon: '⚡',
+    url: 'https://github.com/rezmeplz/M-CAUE',
+  },
+  {
     name: 'UXTester',
     category: 'Usability Testing',
     description: 'A comprehensive tool for task-based usability testing and performance measurement. UXTester supports session recording, task completion tracking, and export of metrics aligned with ISO 9241-11 usability criteria.',
