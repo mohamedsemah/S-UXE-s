@@ -29,6 +29,13 @@ const tools = [
     url: 'https://github.com/rezmeplz/M-CAUE',
   },
   {
+    name: 'MMA-UI',
+    category: 'Multimodal Static Inspector',
+    description: 'This evaluation module (Module 1) focuses on static assessment by simultaneously ingesting and analyzing both the underlying UI source code and its rendered prototype screenshots. Utilizing dedicated Code and Visual-Design agents, it identifies perceptual problems alongside structural code defects without needing to execute dynamic user workflows. A supervisor agent then aggregates these static, multimodal findings to generate annotated screenshot reports and specialized code patches for immediate visual refinement.',
+    icon: '🔍',
+    url: 'https://github.com/rezmeplz/MultiModelAgent-UI',
+  },
+  {
     name: 'UXTester',
     category: 'Usability Testing',
     description: 'A comprehensive tool for task-based usability testing and performance measurement. UXTester supports session recording, task completion tracking, and export of metrics aligned with ISO 9241-11 usability criteria.',
