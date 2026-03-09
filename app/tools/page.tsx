@@ -15,6 +15,13 @@ const tools = [
     url: 'https://aesthetic-evaluator.vercel.app',
   },
   {
+    name: 'DF-InfoUI',
+    category: 'Accessibility Intelligence',
+    description: 'An adaptive multi-LLM agent for detecting and fixing accessibility issues in automotive infotainment user interfaces. Features one Brain Agent coordinating four specialized POUR Neuron Agents to ensure WCAG 2.2 compliance and enhance user experience in automotive interfaces.',
+    icon: '♿',
+    url: 'https://df-info-ui.vercel.app',
+  },
+  {
     name: 'UXTester',
     category: 'Usability Testing',
     description: 'A comprehensive tool for task-based usability testing and performance measurement. UXTester supports session recording, task completion tracking, and export of metrics aligned with ISO 9241-11 usability criteria.',
