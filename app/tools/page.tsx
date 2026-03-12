@@ -44,6 +44,13 @@ const tools = [
     icon: '🤖',
   },
   {
+    name: 'UnityA11y: An In-Editor Accessibility Auditing Plugin for Unity Games with Retrieval-Grounded Recommendations',
+    category: 'Game Accessibility Auditing',
+    description:
+      'Unity Editor plugin that audits accessibility across scripts, scenes, prefabs, shaders, and animations. It combines dependency-aware static analysis with retrieval-augmented LLMs to enforce WCAG 2.2 and Game Accessibility Guidelines, producing severity-ranked, guideline-traceable recommendations with code-ready fixes.',
+    icon: '🎮',
+  },
+  {
     name: 'UXTester',
     category: 'Usability Testing',
     description: 'A comprehensive tool for task-based usability testing and performance measurement. UXTester supports session recording, task completion tracking, and export of metrics aligned with ISO 9241-11 usability criteria.',
