@@ -15,7 +15,7 @@ const tools = [
     url: 'https://aesthetic-evaluator.vercel.app',
   },
   {
-    name: 'DF-InfoUI',
+    name: 'DF-InfoUI: An Adaptive Multi-Agent Tool for Detecting and Fixing Accessibility Issues',
     category: 'Accessibility Intelligence',
     description: 'An adaptive multi-LLM agent for detecting and fixing accessibility issues in automotive infotainment user interfaces. Features one Brain Agent coordinating four specialized POUR Neuron Agents to ensure WCAG 2.2 compliance and enhance user experience in automotive interfaces.',
     icon: '♿',
