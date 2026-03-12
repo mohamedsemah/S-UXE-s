@@ -126,6 +126,29 @@ After deployment, verify:
 
 ## Troubleshooting
 
+### Vercel Not Detecting Latest Commit
+If you've pushed to GitHub but Vercel keeps deploying an old version:
+
+1. **Trigger a fresh deployment from Git**
+   - Vercel Dashboard → your project → **Deployments**
+   - Click the **"..."** menu (top right) → **"Redeploy"** on the *latest* deployment is not enough if that deployment was from an old commit.
+   - Instead: go to **Settings** → **Git** → confirm **Production Branch** is `main` (or your branch). Then make a small change, commit, and push again so GitHub sends a new webhook.
+
+2. **Force GitHub to notify Vercel (empty commit)**
+   From your project root:
+   ```bash
+   git commit --allow-empty -m "chore: trigger Vercel redeploy"
+   git push origin main
+   ```
+   This pushes a new commit so GitHub fires the webhook and Vercel starts a new build from the latest code.
+
+3. **Reconnect the Git integration**
+   - **Settings** → **Git** → **Disconnect** (then **Connect** again and re-authorize if needed).
+   - Push a commit afterward to trigger a new deployment.
+
+4. **Confirm the deployment commit**
+   After a deployment finishes, open it in **Deployments** → check the **commit message/SHA** and click through to GitHub. The commit that built must be the one that contains your changes.
+
 ### Build Fails
 1. Check build logs in Vercel dashboard
 2. Verify all dependencies are in `package.json`
