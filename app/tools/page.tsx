@@ -40,7 +40,7 @@ const tools = [
   {
     name: 'GBS (WIP)',
     category: 'Standards-Verified Dynamic Interaction Testing',
-    description: 'A multi-agent framework that automates usability testing through dynamic behavioral simulation. Utilizing GPT-5.1, specialized User-Agents execute perceive-decide-act loops under strict persona constraints. A Supervisor-Agent actively verifies these interactions against ISO standards to prevent hallucinations, ultimately generating actionable, standards-grounded Diagnostic Patch Reports for developers.',
+    description: 'A multi-agent framework that automates usability testing through dynamic behavioral simulation. Specialized User-Agents execute perceive-decide-act loops under strict persona constraints. A Supervisor-Agent actively verifies these interactions against ISO standards to prevent hallucinations, ultimately generating actionable, standards-grounded Diagnostic Patch Reports.',
     icon: '🤖',
   },
   {
