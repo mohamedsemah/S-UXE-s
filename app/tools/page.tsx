@@ -22,8 +22,8 @@ const tools = [
     url: 'https://df-info-ui.vercel.app',
   },
   {
-    name: 'M-CAUE',
-    category: 'Proactive IDE Usability Assistant',
+    name: 'M-CAUE: A Proactive IDE Usability Assistant for Real-Time Code Evaluation and Remediation',
+    category: 'Shift-Left UX Quality Assurance',
     description: 'Operating directly within a developer\'s IDE as a VS Code plugin, this tool shifts usability testing left by continuously evaluating live UI source code during the active coding phase. It dynamically translates project briefs and mandated standards into a machine-readable design guide, which a supervisor agent uses to flag code-level usability violations. The system then orchestrates specialized recommender agents to deliver real-time, in-situ code patches and compliant snippets, preventing usability defects before the UI is even rendered.',
     icon: '⚡',
     url: 'https://github.com/rezmeplz/M-CAUE',
