@@ -31,14 +31,14 @@ const tools = [
     url: 'https://github.com/rezmeplz/M-CAUE',
   },
   {
-    name: 'MMA-UI',
+    name: 'MMA-UI: Multimodal Static Inspector: Joint Code and Visual Design Evaluator',
     category: 'Multimodal Static Inspector',
     description: 'MMA-UI provides static, multimodal assessment by simultaneously analyzing UI source code and rendered screenshots. Using dedicated Code and Visual-Design agents, it identifies perceptual and structural defects without executing dynamic user workflows. A supervisor agent aggregates these insights to generate annotated reports and actionable code patches for immediate visual refinement.',
     icon: '🔍',
     url: 'https://github.com/rezmeplz/MultiModelAgent-UI',
   },
   {
-    name: 'GBS (WIP)',
+    name: 'GBS: Grounded Behavior Simulator: Standards-Verified Dynamic Interaction Testing (WIP)',
     category: 'Standards-Verified Dynamic Interaction Testing',
     description: 'A multi-agent framework that automates usability testing through dynamic behavioral simulation. Specialized User-Agents execute perceive-decide-act loops under strict persona constraints. A Supervisor-Agent actively verifies these interactions against ISO standards to prevent hallucinations, ultimately generating actionable, standards-grounded Diagnostic Patch Reports.',
     icon: '🤖',
