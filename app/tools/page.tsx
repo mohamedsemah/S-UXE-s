@@ -8,8 +8,8 @@ export const metadata = {
 // Tool data - in a real application, this could come from a database or API
 const tools = [
   {
-    name: 'Aesthetic Evaluator',
-    category: 'Aesthetic Analysis',
+    name: 'LAART: An LLM-based Aesthetic Analysis and Recommendation Tool',
+    category: 'UI Desirability',
     description: 'An AI-powered tool for evaluating the aesthetic quality of user interfaces using large language models. Analyzes visual design elements, layout composition, and overall aesthetic appeal to provide insights for design improvement.',
     icon: '🎨',
     url: 'https://aesthetic-evaluator.vercel.app',
