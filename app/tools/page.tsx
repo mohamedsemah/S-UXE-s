@@ -10,35 +10,37 @@ const tools = [
   {
     name: 'LAART: An LLM-based Aesthetic Analysis and Recommendation Tool',
     category: 'UI Desirability',
-    description: 'An AI-powered tool for evaluating the aesthetic quality of user interfaces using large language models. Analyzes visual design elements, layout composition, and overall aesthetic appeal to provide insights for design improvement.',
+    description:
+      'LLM-powered aesthetic analysis and recommendation tool that evaluates the desirability of user interfaces. It jointly considers layout composition, typography, color usage, and alignment with project-specific design guidelines to surface aesthetic issues. The system then generates design-aware recommendations and alternative UI variants to help teams move from merely passable layouts to premium experiences.',
     icon: '🎨',
     url: 'https://aesthetic-evaluator.vercel.app',
   },
   {
     name: 'DF-InfoUI: An Adaptive Multi-Agent Tool for Detecting and Fixing Accessibility Issues',
     category: 'Accessibility Intelligence',
-    description: 'An adaptive multi-LLM agent for detecting and fixing accessibility issues in automotive infotainment user interfaces. Features one Brain Agent coordinating four specialized POUR Neuron Agents to ensure WCAG 2.2 compliance and enhance user experience in automotive interfaces.',
+    description:
+      'Adaptive multi-agent accessibility intelligence system focused on automotive infotainment and other complex interactive interfaces. A coordinating Brain Agent orchestrates specialized POUR Neuron Agents that scan UI structures, text content, and interaction flows for WCAG 2.2 and standards-aligned violations. The platform also proposes targeted design and code-level remediations.',
     icon: '♿',
     url: 'https://df-info-ui.vercel.app',
   },
   {
     name: 'M-CAUE: A Proactive IDE Usability Assistant for Real-Time Code Evaluation and Remediation',
     category: 'Shift-Left UX Quality Assurance',
-    description: 'Operating directly within a developer\'s IDE as a VS Code plugin, this tool shifts usability testing left by continuously evaluating live UI source code during the active coding phase. It dynamically translates project briefs and mandated standards into a machine-readable design guide, which a supervisor agent uses to flag code-level usability violations. The system then orchestrates specialized recommender agents to deliver real-time, in-situ code patches and compliant snippets, preventing usability defects before the UI is even rendered.',
+    description: 'A multi-agent VS Code plugin integrating continuous usability evaluation directly into live coding workflows. It converts project requirements into a machine-readable design guide. A supervisor agent actively monitors UI source code against this guide, orchestrating specialized recommender agents to automatically generate minimal, standard-compliant code patches.',
     icon: '⚡',
     url: 'https://github.com/rezmeplz/M-CAUE',
   },
   {
     name: 'MMA-UI',
     category: 'Multimodal Static Inspector',
-    description: 'This evaluation module (Module 1) focuses on static assessment by simultaneously ingesting and analyzing both the underlying UI source code and its rendered prototype screenshots. Utilizing dedicated Code and Visual-Design agents, it identifies perceptual problems alongside structural code defects without needing to execute dynamic user workflows. A supervisor agent then aggregates these static, multimodal findings to generate annotated screenshot reports and specialized code patches for immediate visual refinement.',
+    description: 'MMA-UI provides static, multimodal assessment by simultaneously analyzing UI source code and rendered screenshots. Using dedicated Code and Visual-Design agents, it identifies perceptual and structural defects without executing dynamic user workflows. A supervisor agent aggregates these insights to generate annotated reports and actionable code patches for immediate visual refinement.',
     icon: '🔍',
     url: 'https://github.com/rezmeplz/MultiModelAgent-UI',
   },
   {
     name: 'GBS (WIP)',
     category: 'Standards-Verified Dynamic Interaction Testing',
-    description: 'Grounded Behavior Simulator: Synthetic testing by running simulated personas through continuous perceive-decide-act loops on live interfaces. A strict supervisor agent verifies these simulated behavioral failures against established standards, such as ISO 9241-110, to guarantee diagnostic accuracy and eliminate AI hallucinations. It specifically targets the discovery of dynamic interaction barriers, such as broken multi-step workflows or navigational dead-ends, that traditional static analysis methods typically miss.',
+    description: 'A multi-agent framework that automates usability testing through dynamic behavioral simulation. Utilizing GPT-5.1, specialized User-Agents execute perceive-decide-act loops under strict persona constraints. A Supervisor-Agent actively verifies these interactions against ISO standards to prevent hallucinations, ultimately generating actionable, standards-grounded Diagnostic Patch Reports for developers.',
     icon: '🤖',
   },
   {
