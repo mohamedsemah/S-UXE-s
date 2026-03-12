@@ -85,7 +85,7 @@ export default function ToolsPage() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Tools</h1>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-xl text-gray-600 max-w-3xl text-justify">
             Explore the collection of UX evaluation tools integrated into the S-UXE&apos;s ecosystem. 
             Each tool maintains its unique capabilities while benefiting from ecosystem-wide interoperability.
           </p>
@@ -105,7 +105,7 @@ export default function ToolsPage() {
                     <span className="text-sm text-primary-600 font-medium">{tool.category}</span>
                   </div>
                 </div>
-                <p className="text-gray-700 leading-relaxed">{tool.description}</p>
+                <p className="text-gray-700 leading-relaxed text-justify">{tool.description}</p>
                 {tool.url && (
                   <div className="mt-4">
                     <span className="text-sm text-primary-600 font-medium">
@@ -143,7 +143,7 @@ export default function ToolsPage() {
             {/* Ecosystem Integration */}
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Ecosystem Integration</h2>
-              <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
+              <div className="prose prose-lg max-w-none text-gray-700 space-y-4 text-justify">
                 <p>
                   All tools in the ecosystem implement standardized interfaces and data formats that enable interoperability:
                 </p>
@@ -159,7 +159,7 @@ export default function ToolsPage() {
             {/* Contributing Tools */}
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Contributing Tools</h2>
-              <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
+              <div className="prose prose-lg max-w-none text-gray-700 space-y-4 text-justify">
                 <p>
                   Tool developers can integrate their tools into the ecosystem by implementing ecosystem 
                   standards and interfaces.
