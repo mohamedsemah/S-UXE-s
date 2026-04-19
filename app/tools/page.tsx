@@ -51,6 +51,14 @@ const tools = [
     icon: '🎮',
   },
   {
+    name: 'A11yPilot',
+    category: 'Mixed-Initiative Accessibility Personalization',
+    description:
+      'Chrome Manifest V3 research prototype for mixed-initiative accessibility personalization on arbitrary web pages. It supports five accessibility profiles, deterministic and cloud assistant routes, preview-first action review, typed and reversible page adaptations, site-specific persistence, and auditable instrumentation exports for research sessions.',
+    icon: '🧭',
+    url: 'https://github.com/mohamedsemah/a11ypilot',
+  },
+  {
     name: 'UXTester',
     category: 'Usability Testing',
     description: 'A comprehensive tool for task-based usability testing and performance measurement. UXTester supports session recording, task completion tracking, and export of metrics aligned with ISO 9241-11 usability criteria.',
